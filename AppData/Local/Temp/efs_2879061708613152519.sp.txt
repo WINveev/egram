@@ -1,0 +1,184 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Toother | Blog</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-titillium-250.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="menu_nav">
+        <ul>
+          <li><a href="index.jsp"><span>Home Page</span></a></li>
+           <li><a href="UserLogin.jsp"><span>signin</span></a></li>
+          <li><a href="about.jsp"><span>About Us</span></a></li>
+          <li class="active"><a href="blog.jsp"><span>Blog</span></a></li>
+          <li><a href="contact.jsp"><span>Contact Us</span></a></li>
+        </ul>
+      </div>
+      <div class="logo">
+         <a href="index.jsp"><img src="images/logo1.png"></a>
+      </div>
+      <div class="clr"></div>
+      <div class="slider">
+        <div id="coin-slider"> 
+         <a href="#"><img src="images/1.jpg" width="927" height="323" alt="" /> </a> 
+         <a href="#"><img src="images/2.jpg" width="927" height="323" alt="" /> </a> 
+        <a href="#"><img src="images/3.jpg" width="927" height="323" alt="" /> </a> 
+         <a href="#"><img src="images/4.jpg" width="927" height="323" alt="" /> </a> 
+         <a href="#"><img src="images/5.jpg" width="927" height="323" alt="" /> </a> 
+        <a href="#"><img src="images/6.jpg" width="927" height="323" alt="" /> </a>
+        <a href="#"><img src="images/7.jpg" width="927" height="323" alt="" /> </a>
+        </div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        <div class="article">
+          <h2><span>A Blog</span> Entry</h2>
+          <div class="clr"></div>
+          <p>Posted by <a href="#">Admin</a> <span>&nbsp;&bull;&nbsp;</span> Filed under <a href="#">templates</a>, <a href="#">internet</a></p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque. Curabitur vel urna. In tristique orci porttitor ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. </p>
+          <p>Tagged: <a href="#">orci</a>, <a href="#">lectus</a>, <a href="#">varius</a>, <a href="#">turpis</a></p>
+          <p><a href="#"><strong>Comments (3)</strong></a> <span>&nbsp;&bull;&nbsp;</span> May 27, 2010 <span>&nbsp;&bull;&nbsp;</span> <a href="#"><strong>Edit</strong></a></p>
+        </div>
+        <div class="article">
+          <h2><span>3</span> Responses</h2>
+          <div class="clr"></div>
+          <div class="comment"> <a href="#"><img src="images/userpic.gif" width="40" height="40" alt="" class="userpic" /></a>
+            <p><a href="#">admin</a> Says:<br />
+              April 20th, 2009 at 2:17 pm</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum.</p>
+          </div>
+          <div class="comment"> <a href="#"><img src="images/userpic.gif" width="40" height="40" alt="" class="userpic" /></a>
+            <p><a href="#">Admin</a> Says:<br />
+              April 20th, 2009 at 3:21 pm</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo.</p>
+          </div>
+          <div class="comment"> <a href="#"><img src="images/userpic.gif" width="40" height="40" alt="" class="userpic" /></a>
+            <p><a href="#">admin</a> Says:<br />
+              April 20th, 2009 at 2:17 pm</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum.</p>
+          </div>
+        </div>
+        <div class="article">
+          <h2><span>Leave a</span> Reply</h2>
+          <div class="clr"></div>
+          <form action="#" method="post" id="leavereply">
+            <ol>
+              <li>
+                <label for="name">Name (required)</label>
+                <input id="name" name="name" class="text" />
+              </li>
+              <li>
+                <label for="email">Email Address (required)</label>
+                <input id="email" name="email" class="text" />
+              </li>
+              <li>
+                <label for="website">Website</label>
+                <input id="website" name="website" class="text" />
+              </li>
+              <li>
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="8" cols="50"></textarea>
+              </li>
+              <li>
+                <input type="image" name="imageField" id="imageField" src="images/submit.gif" class="send" />
+                <div class="clr"></div>
+              </li>
+            </ol>
+          </form>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="searchform">
+          <form id="formsearch" name="formsearch" method="post" action="#">
+            <span>
+            <input name="editbox_search" class="editbox_search" id="editbox_search" maxlength="80" value="Search our ste:" type="text" />
+            </span>
+            <input name="button_search" src="images/search.gif" class="button_search" type="image" />
+          </form>
+        </div>
+        <div class="clr"></div>
+        <div class="gadget">
+          <h2 class="star"><span>Sidebar</span> Menu</h2>
+          <div class="clr"></div>
+          <ul class="sb_menu">
+           <li><a href="branch.jsp">Branch</a></li>
+            <li><a href="certificates.jsp">Certificates</a></li>
+            <li><a href="RTI.jsp">RTI</a></li>
+            <li><a href="#">Agricultural and land measurement</a></li>
+            <li><a href="#">Schemes</a></li>
+            <li><a href="#">Event</a></li>
+            <li><a href="#">Pay mehsool</a></li>
+            <li><a href="#">Photo gallary</a></li>
+          </ul>
+        </div>
+        <div class="gadget">
+          <h2 class="star"><span>Latest news</span></h2>
+          <div class="clr"></div>
+          <ul class="ex_menu">
+           <marquee direction="up" scrollamount="2"> <li><a href="http://www.panchayat.gov.in/documents/10198/355951/Letter%20to%20all%20Principal%20Secretary%20dt-4th%20March%2C%202016.pdf" target="_blank">D.O. letter regarding conferring Panchayat Awards on National Panchayati Raj Day (NPRD).</a></li>
+            <li><a href="http://www.panchayat.gov.in/documents/10198/355951/Advisory%20on%20Gram%20Sabha.pdf "  target="_blank">Celebration of National Panchayat Diwas during April 14-24, 2016</a></li>
+           <li><a href="http://www.panchayat.gov.in/documents/10198/488022/Advertisement%20External%20Professional%20Support%2026%20Feb%2016.pdf "  target="_blank">Engagement of External Professional Support</a></li>
+             <li><a href="http://www.panchayat.gov.in/documents/10198/456811/ePuraskar%202016%20result.pdf "  target="_blank">e-Puraskar 2016 (for performance year FY 2014-15) results announced.</a></li>
+             <li><a href="http://www.panchayat.gov.in/orders-by-states/uts"  target="_blank">GPDP Guidelines</a></li>
+             <li><a href="http://www.panchayat.gov.in/documents/10198/1184340/Letter%20to%20States%20UTs%20on%20Clean%20Cooking%20Energy.pdf "  target="_blank">Letter dated 04-01-2016 to States/UTs regarding improving access to clean Cooking Energy at Panchayat level</a></li>
+            <li><a href="http://www.panchayat.gov.in/documents/10198/1143731/Utilization%20of%20grants.pdf "  target="_blank">Utilization of grants based on the recommendations of the FFC for meeting O&M and capital expenditure by the GP</a></li>
+           <li><a href="http://www.panchayat.gov.in/documents/10198/355692/UTs%20Minutes.pdf"  target="_blank">Minutes of meeting with Secretaries in-charge-of Panchayati Raj Department of UTs held on 20th Novemeber 2015</a></li>
+          <li><a href="http://www.panchayat.gov.in/documents/10198/456811/office%20Letter1.pdf"  target="_blank">Minutes of meeting with State Principal Secretaries held on 29-30th October, 2015</a></li>
+          <li><a href="http://epaper.indianexpress.com/640872/Indian-Express/16-November-2015#page/6"  target="_blank">CSR: Kitex group (Kerala) wins majority in Kizhakkambalam Village Panchayat</a></li>
+          <li><a href="http://www.panchayat.gov.in/documents/10198/456811/merged%281%29.pdf"  target="_blank">ToRs for the Study on SoPR 2015-16 and DI 2016-17</a></li>
+          <li><a href="http://www.panchayat.gov.in/documents/10198/349332/Guidelines.pdf"  target="_blank">Guidelines on Implementation of Fourteenth Finance Commission</a></li>
+          <li><a href="http://www.panchayat.gov.in/minutes-of-review-meetings"  target="_blank">Presentaion by States during National Consultation fro Planning & Accounting.</a></li>
+          <li><a href="http://www.panchayat.gov.in/documents/10198/355951/Meeting%20notice%20for%2014-15%20Sept%202015%20Meeting.pdf"  target="_blank">National consultation on software requirements for Planning & Accounting for development plans at GP level</a></li>
+          
+           </marquee>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="fbg">
+    <div class="fbg_resize">
+      <div class="col c1">
+        <h2><span>Image</span> Gallery</h2>
+        <a href="#"><img src="images/gal1.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal2.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal3.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal4.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal5.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal6.jpg" width="75" height="75" alt="" class="gal" /></a> </div>
+     
+      <div class="col c3">
+        <h2><span>Contact</span> Us</h2>
+      <p class="contact_info"> <span>Address:</span> Ahmedabad,GUJ,IND<br />
+          <span>Telephone:</span> 079-11111111<br />
+          <span>FAX:</span> +91-11112222<br />
+          <span>Others:</span> 1800-222-4444<br />
+          <span>E-mail:</span> <a href="#">mail@vivekpanchal1995.com</a> </p>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">Copyright &copy; <a href="#">egrampanchayat</a>. All Rights Reserved</p>
+      <p class="rf"><a target="_blank" href="http://www.free-css.com/">designed</a> By <a target="_blank" href="http://www.dreamtemplate.com/">vivek panchal</a></p>
+      <div style="clear:both;"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+    

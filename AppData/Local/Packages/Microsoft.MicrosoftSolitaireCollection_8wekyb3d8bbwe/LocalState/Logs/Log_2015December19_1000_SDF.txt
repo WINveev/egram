@@ -1,0 +1,22 @@
+[SDF] --> Log file created 2015-12-19T10:00:38.2367246+05:30
+[SDF] --> Debug: Starts from: [CheckMandatoryUpdate]
+[SDF] --> Debug: MoveToPoint: [CheckMandatoryUpdate]
+[SDF] --> Debug: [CheckMandatoryUpdate] :: MandatoryUpdateChecked: False
+[SDF] --> Debug: [CheckMandatoryUpdate] :: Try to get CDN app version data.
+[SDF] --> Debug: [CheckMandatoryUpdate] :: Check whether  the MandatoryUpdate required.
+[SDF] --> Debug: MoveToPoint: [CheckNonMandatoryUpdate]
+[SDF] --> Debug: [CheckNonMandatoryUpdate] :: Try to get CDN app version data.
+[SDF] --> Debug: [CheckNonMandatoryUpdate] :: Check whether the Non MandatoryUpdate required.
+[SDF] --> Debug: MoveToPoint: [CheckFirstTimeStarted]
+[SDF] --> Debug: [CheckFirstTimeStarted] :: IsFirstTimeStarted: True
+[SDF] --> Debug: MoveToPoint: [ChooseMigrationStrategy]
+[SDF] --> Debug: [ChooseMigrationStrategy] :: Oem data exists: False
+[SDF] --> Info: [ChooseMigrationStrategy] :: Win8 data exists: False
+[SDF] --> Debug: MoveToPoint: [ShowAlertPopup]
+[SDF] --> Debug: ShowPopup<T> Start
+[SDF] --> Debug: ShowPopup<T> Return Handle
+[SDF] --> Debug: ShowPopup<T> Dispatched
+[SDF] --> Debug: HideProgressPopup Start
+[SDF] --> Debug: HideProgressPopup _progressPopup == null
+[SDF] --> Debug: HideProgressPopup Finished
+[SDF] --> Debug: ShowAlertPopup Create Instance

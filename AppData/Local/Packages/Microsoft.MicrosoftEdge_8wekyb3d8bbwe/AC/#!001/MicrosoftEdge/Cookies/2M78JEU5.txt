@@ -1,0 +1,9 @@
+canvashtmlSwitcherColor
+3A539B
+themes.semicolonweb.com/html/canvas/
+1088
+572008320
+30494955
+3499950480
+30492138
+*

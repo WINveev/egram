@@ -1,0 +1,8 @@
+Root User: adminvltbrcr
+   Root Password: h4AUvgt8t2vB
+   Database Name: egramproject
+
+
+ Root User: adminvltbrcr
+  Root Password: h4AUvgt8t2vB
+URL: https://egramproject-govn.rhcloud.com/phpmyadmin/

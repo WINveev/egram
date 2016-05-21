@@ -1,0 +1,9 @@
+gu
+{"q":"%3fadCampaign%3d82952%26adPixel%3dsevengames%26clickID%3d1028b800b1266e00204dd27a61ebe2%26publisherID%3d1350_65190","lp":"http%3a%2f%2fplarium.com%2fplay%2fen%2fsparta%2ftop%253fadCampaign%253d82952%2526adPixel%253dsevengames%2526clickID%253d1028b800b1266e00204dd27a61ebe2%2526publisherID%253d1350_65190","r":"http%3a%2f%2fwww.terraclicks.com%2fwatch%3fkey%3d152888677ba150935d3f921281cec9df%26scrWidth%3d1366%26scrHeight%3d768%26tz%3d5.5","t":1455794556,"g":0}
+plarium.com/
+17408
+3882109952
+30501838
+2584763924
+30501436
+*
