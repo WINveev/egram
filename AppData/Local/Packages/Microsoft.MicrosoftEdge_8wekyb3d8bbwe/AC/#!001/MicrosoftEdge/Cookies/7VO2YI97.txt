@@ -1,9 +1,0 @@
-lastUgOutgoingSyncTime
-1453382783549
-secure-api.gravity.com/
-2147501056
-2752489856
-30498639
-1442273865
-30495823
-*

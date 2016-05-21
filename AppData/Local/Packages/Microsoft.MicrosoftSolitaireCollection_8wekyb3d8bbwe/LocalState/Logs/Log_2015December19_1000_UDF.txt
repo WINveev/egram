@@ -1,3 +1,0 @@
-[UDF] --> Log file created 2015-12-19T10:00:38.9966688+05:30
-[UDF] --> Debug: UDFM initialized.
-[UDF] --> Debug: UDF Started automatically.
